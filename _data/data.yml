@@ -39,8 +39,8 @@ career-profile:
       - 后端技术栈: flask/django、celery等;
       - 前端技术栈: vue、ui-elelement、vcharts、uView等;
       - 中间件技术栈: mysql、redis、rabbitmq、k8s等;
-      - 监控工具技术栈: flower、grafana、sentry等。
-      - 工具/部署相关: jenkins、gunicorn、supervisor、dockerz等
+      - 监控工具技术栈: flower、grafana、sentry等;
+      - 工具/部署相关: jenkins、gunicorn、supervisor、dockerz等.
 
 education:
     - degree: 本科学士
