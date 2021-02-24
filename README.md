@@ -1,3 +1,3 @@
 
-[我的个人简历](https://username.github.io/online-cv/)
+[我的个人简历](https://other-z.github.io/online-cv/)
 
