@@ -36,8 +36,11 @@ career-profile:
     summary: |
       1年功能测试经验，5年测开经验，主要致力于测试团队效能提升工作，在测试实践中提取测试痛点帮助测试团队使用技能手段提升测试效率与准确性，
       如持续集成平台、自动化测试平台、业务测试管理平台、工具平台、监控平台、mock平台等, 尤其在自动化测试框架与平台开发上有非常深入的研究和实践.
-        - 后端技术栈: flask/django、celery、gunicorn、supervisor、docker等;
-        - 前端技术栈: vue、ui-elelement、vcharts等; 中间件: jenkins、mysql、redis、rabbitmq等; 监控工具: flower、grafana、sentry等。
+      - 后端技术栈: flask/django、celery等;
+      - 前端技术栈: vue、ui-elelement、vcharts、uView等;
+      - 中间件技术栈: mysql、redis、rabbitmq、k8s等;
+      - 监控工具技术栈: flower、grafana、sentry等。
+      - 工具/部署相关: jenkins、gunicorn、supervisor、dockerz等
 
 education:
     - degree: 本科学士
