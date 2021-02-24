@@ -3,170 +3,177 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: 郑启涛
-    tagline: 高级测试开发工程师
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: 郑启涛
+  tagline: 高级测试开发工程师
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: oooother.z@gmail.com
-    phone: MTg1NzY2OTU3MjY=
-    github: other-z
-    birthday: 1991年8月
-    experience: 6年工作经验
-    wechat: other___z
-    website:  #do not add http://
+  # Sidebar links
+  email: oooother.z@gmail.com
+  phone: MTg1NzY2OTU3MjY=
+  github: other-z
+  birthday: 1991年8月
+  experience: 6年工作经验
+  wechat: other___z
+  website:  #do not add http://
 
-    gitlab:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+  gitlab:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    languages:
-      - idiom: 英语
-        level: 四级
+  languages:
+    - idiom: 英语
+      level: 四级
 
-    interests:
-      - item: 看书 旅游 编程
-        link:
+  interests:
+    - item: 看书 旅游 编程
+      link:
 
 career-profile:
-    title: 个人简介
-    summary: |
-      1年功能测试经验，5年测开经验，主要致力于测试团队效能提升工作，在测试实践中提取测试痛点帮助测试团队使用技能手段提升测试效率与准确性，
-      如持续集成平台、自动化测试平台、业务测试管理平台、工具平台、监控平台、mock平台等, 尤其在自动化测试框架与平台开发上有非常深入的研究和实践.
-      - 后端技术栈: flask/django、celery等;
-      - 前端技术栈: vue、ui-elelement、vcharts、uView等;
-      - 中间件技术栈: mysql、redis、rabbitmq、k8s等;
-      - 监控工具技术栈: flower、grafana、sentry等;
-      - 工具/部署相关: jenkins、gunicorn、supervisor、dockerz等.
+  title: 个人简介
+  summary: |
+    1年功能测试经验，5年测开经验，主要致力于测试团队效能提升工作，在测试实践中提取测试痛点帮助测试团队使用技能手段提升测试效率与准确性，
+    如持续集成平台、自动化测试平台、业务测试管理平台、工具平台、监控平台、mock平台等, 尤其在自动化测试框架与平台开发上有非常深入的研究和实践.
+    - 后端技术栈: flask/django、celery等;
+    - 前端技术栈: vue、ui-elelement、vcharts、uView等;
+    - 中间件技术栈: mysql、redis、rabbitmq、k8s等;
+    - 监控工具技术栈: flower、grafana、sentry等;
+    - 工具/部署相关: jenkins、gunicorn、supervisor、dockerz等.
 
 education:
-    - degree: 本科学士
-      university: 湖北武汉理工大学
-      time: 2010 - 2014
-      major: 电子信息科学与技术
+  - degree: 本科学士
+    university: 湖北武汉理工大学
+    time: 2010 - 2014
+    major: 电子信息科学与技术
 
 experiences:
-    - role: 测试开发工程师
-      time: 2017-04 至今
-      company: 深圳市小赢科技有限责任公司
-      details: |
-        负责公司测试团队测试效能、质量保障能力的提升工作；带领小组参与测试团队在公司技术体系的大中台建设，
-        让测试技术充分应用于项目持续交付中。我们的工作目标是让测试更加高效、便捷、准确！我们的成果主要有:
-        自动化测试平台、数据银行平台、业务测试平台、常用工具平台、mock平台、数据监控平台、接口测试平台、协作管理平台等;
-    - role: 测试开发工程师
-      time: 2015-06 至 2017-04
-      company: 深圳市云之讯技术服务有限公司
-      details: |
-        负责公司互联网通讯项目如: 及时消息(IM)、视频通话(VOIP)、短信协议(SMS)、官网(WEB)、管理平台(WEB)等项目的自动化测试开发、
-        负责测试团队效能工具开发，如短信发送客户端、及时消息客户端等; 积累了非常丰富的自动化测试开发经验、以及自动化测试框架开发经验；
-    - role: 测试工程师
-      time: 2014-06 至 2015-06
-      company: 软通动力信息技术(集团)有限公司 (合作方, 深圳市华为海思半导体技术有限公司)
-      details: |
-        任职于合作方智能电视(DTV)核心芯片研发项目组，主要负责linux图形驱动白盒测试(c++)、Android中间层(midleware)接口测试(java)、
-        整机android多媒体模块自动化测试(python)；对敏捷开发、devops有了深刻的映像与实践经验;
+  - role: 测试开发专家
+    time: 2020-06 至今
+    company: 深圳市虾皮信息科技有限公司
+    details: |
+      负责部门研发团队的研发效能提升以及测试团队测试效能、质量保障能力提升的相关工作,
+      包括项目研发流程改进、持续发布体系建设、自动化测试体系建设、回归团队建设等相关工作内容。
+
+  - role: 高级测试开发工程师
+    time: 2017-04 至 2020-06
+    company: 深圳市小赢科技有限责任公司
+    details: |
+      负责公司测试团队测试效能、质量保障能力的提升工作；带领小组参与测试团队在公司技术体系的大中台建设，
+      让测试技术充分应用于项目持续交付中。我们的工作目标是让测试更加高效、便捷、准确！我们的成果主要有:
+      自动化测试平台、数据银行平台、业务测试平台、常用工具平台、mock平台、数据监控平台、接口测试平台、协作管理平台等;
+  - role: 测试开发工程师
+    time: 2015-06 至 2017-04
+    company: 深圳市云之讯技术服务有限公司
+    details: |
+      负责公司互联网通讯项目如: 及时消息(IM)、视频通话(VOIP)、短信协议(SMS)、官网(WEB)、管理平台(WEB)等项目的自动化测试开发、
+      负责测试团队效能工具开发，如短信发送客户端、及时消息客户端等; 积累了非常丰富的自动化测试开发经验、以及自动化测试框架开发经验；
+  - role: 测试工程师
+    time: 2014-06 至 2015-06
+    company: 软通动力信息技术(集团)有限公司 (合作方, 深圳市华为海思半导体技术有限公司)
+    details: |
+      任职于合作方智能电视(DTV)核心芯片研发项目组，主要负责linux图形驱动白盒测试(c++)、Android中间层(midleware)接口测试(java)、
+      整机android多媒体模块自动化测试(python)；对敏捷开发、devops有了深刻的映像与实践经验;
+
 projects:
-    title: 项目经验
-    intro:
-    assignments:
-      - title: 自动化测试平台项目
-        tagline:
-          - lights:
-            - "1. 高执行效率: 根据用例数量动态分配执行机并行执行, 几乎所有用例都将同时并行执行，比起串行执行框架最快可提升执行效率100倍！"
+  title: 项目经验
+  intro:
+  assignments:
+    - title: 自动化测试平台
+      tagline:
+        - lights:
+            - "1. 高执行效率: 用例默认并行执行, 可快速对大批量的自动化测试用例进行验证"
             - "2. 支持多类型: 支持在app、web、api等类型的自动化测试"
             - "3. 支持多协议: 支持在http、protobuf、cmpp等接口协议的自动化测试"
-            - "4. 精准覆盖率: 自动化用例与功能用例一对一一键关联, 各业务覆盖率数据精准展示！"
-            - "5. 便捷开发模式: 仅需Python基础即可快速接入, 无需再学习其他模板语法！"
-            - "6. 便捷同步方式: 线上线下用例数据多种同步方式, 方便快捷！"
-            - "7. 便捷构建方式: 平台提供多种构建方式，满足不同构建需求, 如: 标签构建、定时构建、计划构建、历史构建、仅失败构建等等！"
-            - "8. 高代码实时性: 测试代码提交后实时更新，无需进行各种发布操作."
-            statistics:
-              - "1. 平台研发耗时: 独立4个月研发完成并推广使用"
-              - "2. 平台数据简要: 现共接入17个自动化测试项目、64位开发者，半年内共开发出2W+用例、发起构建3W+次、执行用例30W+,
-                用例覆盖率在40%+，发现200+bug等，为业务测试平台发起3000+次需求构建，为协作管理平台提供4000+次环境可用性检测构建。"
-            difficults:
-              - "1. 在协程运行模式下, 收集用例并行执行的日志问题"
-              - "2. 在一次构建中, 部分用例需要串行执行的问题"
-              - "3. 线上线下用例数据保持同步问题"
-              - "4. 前端编辑参数时, BIG-INT类型数据的展示以及存储问题"
-              - "5. 用例上下文参数传递以及识别问题"
-            technologies: "django celery gunicorn vue ui-element drf rf rabbimq redis mysql docker jenkins supervisor"
-            summary: |
-              这是一款拥有高并发执行能力, 支持多类型、多协议的自动化测试平台，其提供本地调试以及线上执行的功能, 与业界类似开源框架相比, 在快速回归验证以及精确
-              覆盖率数据统计等方面有着非常明显的优势.
-      - title: 数据银行平台项目
-        tagline:
-          - lights:
+            - "4. 精准覆盖率: 自动化用例与功能用例一对一一键关联, 各业务覆盖率数据精准展示"
+            - "5. 低接入门槛: 仅需Python基础即可快速接入"
+            - "6. 便捷构建方式: 平台提供多种构建方式，满足不同构建需求, 如: 标签构建、定时构建、计划构建、历史构建、仅失败构建等等"
+            - "7. 高代码实时性: 测试代码提交后秒级实时更新."
+          statistics:
+            - "1. 接入数据: 共接入17个自动化测试项目、64位开发者"
+            - "2. 使用数据: 半年内共开发出2W+用例、发起构建3W+次、执行用例30W+"
+            - "3. 成果数据: 功能用例覆盖率在40%+以上，共发现200+bug等，为业务测试平台发起3000+次需求构建，为协作管理平台提供4000+次环境可用性检测构建。"
+          difficults:
+            - "1. 在协程运行模式下, 收集用例并行执行的日志问题"
+            - "2. 在一次构建中, 部分用例需要串行执行的问题"
+            - "3. 线上线下用例数据保持同步问题"
+            - "4. 前端编辑参数时, BIG-INT类型数据的展示以及存储问题"
+            - "5. 用例上下文参数传递以及识别问题"
+          technologies: "django celery gunicorn vue ui-element drf rf rabbimq redis mysql docker jenkins supervisor"
+          summary: |
+            这是一款拥有高并发执行能力, 支持多类型、多协议的自动化测试平台，其提供本地调试以及线上执行的功能, 与业界类似开源框架相比, 在快速回归验证以及精确
+            覆盖率数据统计等方面有着非常明显的优势.
+    - title: 数据银行平台
+      tagline:
+        - lights:
             - "1. 取之不尽用之不竭: 数据取一条造一条, 不出问题永远用不完!"
             - "2. 低成本接入: 复用自动化测试代码关键字，无需另外设计造数逻辑."
             - "3. 便捷取数流程: 无需等待造数过程, 秒级页面取数"
             - "4. 便捷的录入方式: 自动化用例执行逻辑一键生成造数任务，也可在前端自定义造数步骤."
             - "5. 多环境支持: 同种数据支持在不同环境构造数据"
             - "6. 告警与自运营: 构造失败经告警策略告警后在一定时间内自动尝试恢复造数."
-            statistics:
-              - "1. 平台研发耗时: 独立2个月研发完成并推广使用；"
-              - "2. 平台数据简要: 半年内共开发200+种类数据，27位开发者接入，共生产数据32W+, 共被消费数据25W+, 日手动消费
+          statistics:
+            - "1. 平台研发耗时: 独立2个月研发完成并推广使用；"
+            - "2. 平台数据简要: 半年内共开发200+种类数据，27位开发者接入，共生产数据32W+, 共被消费数据25W+, 日手动消费
               数据平均1000+条, 日接口消费平均4000+条，半年统计为研发团队节省手工造数时长68W+分钟；"
-            difficults:
-              - "1. 复用自动化测试代码，兼容数据银行解决在造数步骤中的提取关键数据"
-              - "2. 解决造数时发生死循环的问题"
-            technologies: "django celery gunicorn vue ui-element drf rabbimq redis mysql docker jenkins supervisor"
-            summary: |
-              数据银行平台可通过复用自动化测试关键字生成造数任务，造数任务可在不同环境预先构造大量数据，且本着取一造一的原则对数据总量
-              进行补偿，使得数据取之不尽用之不竭！
-      - title: 线上数据监控平台项目
-        tagline:
-          - lights:
+          difficults:
+            - "1. 复用自动化测试代码，兼容数据银行解决在造数步骤中的提取关键数据"
+            - "2. 解决造数时发生死循环的问题"
+          technologies: "django celery gunicorn vue ui-element drf rabbimq redis mysql docker jenkins supervisor"
+          summary: |
+            数据银行平台可通过复用自动化测试关键字生成造数任务，造数任务可在不同环境预先构造大量数据，且本着取一造一的原则对数据总量
+            进行补偿，使得数据取之不尽用之不竭！
+    - title: 线上数据监控平台
+      tagline:
+        - lights:
             - "1. 超清晰视角: 按实际业务需求参数并站在测试的角度监控线上数据的可靠性."
             - "2. 多样化接入方式: 提供代码接入模板以及前端页面模板接入方式，适配多样化监控逻辑."
             - "3. 超及时告警: 异常发生后秒级进入告警策略提供告警，告警方式分邮件、企业微信、短信等."
             - "4. 超清晰数据统计: 提供页面化的数据监控记录统计，帮助更好分析业务情况."
-            statistics:
-              - "1. 平台研发耗时:  2人1.5个月研发完成并推广使用；"
-              - "2. 平台数据简要:  现共有800+任务数，共120+开发者接入，每次调度任务次数35000+-次，校验数据250W+-条/日，
+          statistics:
+            - "1. 平台研发耗时:  2人1.5个月研发完成并推广使用；"
+            - "2. 平台数据简要:  现共有800+任务数，共120+开发者接入，每次调度任务次数35000+-次，校验数据250W+-条/日，
               统计类告警300+次/日，数据异常类告警平均100+次/日. 共发现300+线上数据问题！"
-            difficults:
-              - "1. 线上数据库权限控制问题"
-              - "2. 实时更新用户提交的监控代码"
-              - "3. 解决对大批量数据进行校验的能力"
-            technologies: "flask celery gunicorn bootstrap rabbimq redis mysql jenkins supervisor"
-            summary: |
-              这是一款为测试右移测试策略提供鼎力支撑的线上数据监控平台，其支持测试、开发同学自定义线上数据监控逻辑代码,
-              并提供多种页面模板快速接入.
-      - title: 业务接入能力工具集私库项目
-        tagline:
+          difficults:
+            - "1. 线上数据库权限控制问题"
+            - "2. 实时更新用户提交的监控代码"
+            - "3. 解决对大批量数据进行校验的能力"
+          technologies: "flask celery gunicorn bootstrap rabbimq redis mysql jenkins supervisor"
+          summary: |
+            这是一款为测试右移测试策略提供鼎力支撑的线上数据监控平台，其支持测试、开发同学自定义线上数据监控逻辑代码,
+            并提供多种页面模板快速接入.
+    - title: 业务接入能力工具集私库
+      tagline:
 
-          - lights:
+        - lights:
             - "标准性与统一性: 由测开同学统一预研并适度封装工具接入方式，编写接入文档，统一维护，减少冗余开发量."
-            statistics:
-              - "所有测试同学在对接业务测试时均使用该工具库进行接入，实现了工具的统一性与标准性"
-            difficults:
-              - "1. 解决在办公环境下与测试环境隔离下的mysql、redis等的代码操作的问题"
-              - "2. 解决http请求在并行执行过程中统一维护登入态的问题"
-              - "3. 解决prtobuf协议同时进行多分支的支持"
-            technologies: "jsonrpc、cmq、mysql、redis、cmpp、protobuf、http ++"
-            summary: |
-              由专业的测开统一进行业务接入能力工具开发、发布、维护等工作，将避免测试同学冗余的开发工作，以及减少降低该开发成本，
-              因此我制定了该业务接入能力的标准工具库, 提供一键安装的能力。现已接入如protobuf、cmpp、cmq、apollo等多达20多种工具.
+          statistics:
+            - "所有测试同学在对接业务测试时均使用该工具库进行接入，实现了工具的统一性与标准性"
+          difficults:
+            - "1. 解决在办公环境下与测试环境隔离下的mysql、redis等的代码操作的问题"
+            - "2. 解决http请求在并行执行过程中统一维护登入态的问题"
+            - "3. 解决prtobuf协议同时进行多分支的支持"
+          technologies: "jsonrpc、cmq、mysql、redis、cmpp、protobuf、http ++"
+          summary: |
+            由专业的测开统一进行业务接入能力工具开发、发布、维护等工作，将避免测试同学冗余的开发工作，以及减少降低该开发成本，
+            因此我制定了该业务接入能力的标准工具库, 提供一键安装的能力。现已接入如protobuf、cmpp、cmq、apollo等多达20多种工具.
 
 skills:
-    title: 技能 &amp; 熟练程度
+  title: 技能 &amp; 熟练程度
 
-    toolset:
-      - name: Python
-        level: 90%
+  toolset:
+    - name: Python
+      level: 90%
 
-      - name: Django & flask & celery
-        level: 85%
+    - name: Django & flask & celery
+      level: 85%
 
-      - name: Vue & ui-element
-        level: 80%
+    - name: Vue & ui-element
+      level: 80%
 
-      - name: Devops
-        level: 75%
+    - name: Devops
+      level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="https://sudor.github.io/online-cv/" rel="nofollow">kitar.zheng</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="https://sudor.github.io/online-cv/" rel="nofollow">kitar.zheng</a>
