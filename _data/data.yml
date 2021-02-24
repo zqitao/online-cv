@@ -19,6 +19,7 @@ sidebar:
     experience: 6年工作经验
     wechat: other___z
     website:  #do not add http://
+
     gitlab:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
@@ -42,6 +43,7 @@ education:
       university: 湖北武汉理工大学
       time: 2010 - 2014
       speciality: 电子信息科学与技术
+
 experiences:
     - role: 测试开发工程师
       time: 2017-04 至今
@@ -145,6 +147,7 @@ projects:
             summary: |
               由专业的测开统一进行业务接入能力工具开发、发布、维护等工作，将避免测试同学冗余的开发工作，以及减少降低该开发成本，
               因此我制定了该业务接入能力的标准工具库, 提供一键安装的能力。现已接入如protobuf、cmpp、cmq、apollo等多达20多种工具.
+
 skills:
     title: 技能 &amp; 熟练程度
 
