@@ -6,3 +6,13 @@
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+.projects {
+    border: 0;
+	background: transparent;
+	line-height: 20px; /* 行距 */
+	/*width: 100%;*/
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+}
