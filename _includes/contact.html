@@ -2,37 +2,37 @@
   <ul class="list-unstyled contact-list">
 
     {% if sidebar.phone %}
-    <li class="phone"><i class="fas fa-phone"></i>
+    <li class="phone"><i class="fas fa-phone" style="font-size:18px"></i>
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
+    <li class="email"><i class="fas fa-envelope" style="font-size:18px"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.wechat %}
-    <li class="wechat"><i class="fab fa-weixin"></i>
+    <li class="wechat"><i class="fab fa-weixin" style="font-size:18px"></i>
       <span>{{ sidebar.wechat }}</span>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
+    <li class="github"><i class="fab fa-github" style="font-size:18px"></i>
       <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.experience %}
-    <li class="experience"><i class="fas fa-skating"></i>
+    <li class="experience"><i class="fas fa-skating" style="font-size:18px"></i>
       <span>{{ sidebar.experience }}</span>
     </li>
     {% endif %}
 
     {% if sidebar.birthday %}
-    <li class="birthday"><i class="fa fa-birthday-cake"></i>
+    <li class="birthday"><i class="fas fa-birthday-cake" style="font-size:18px"></i>
       <span>{{ sidebar.birthday }}</span>
     </li>
     {% endif %}
