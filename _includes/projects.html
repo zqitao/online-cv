@@ -20,14 +20,38 @@
     <div class="item">
 
       <span class="project-title">
-        <a href="{{ project.link }}">{{ project.title }}</a>
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
       </span>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+        {% for tl in project.tagline %}
+          <hr>
+          <p class="project-tagline">{{ tl.summary }}</p>
+          <p><strong>亮点与特色:</strong></p>
+          {% for l in tl.lights %}
+            <div class="project-tagline">{{ l }}</div>
+          {% endfor %}
+          <br>
+          <p><strong>简要数据描述:</strong></p>
+          {% for s in tl.statistics %}
+            <div class="project-tagline">{{ s }}</div>
+          {% endfor %}
+          <br>
+          <p><strong>攻克难点记录:</strong></p>
+          {% for p in tl.difficults %}
+            <div class="project-tagline">{{ p }}</div>
+          {% endfor %}
+          <br>
+          <p><strong>涉及技术栈:</strong> {{tl.technologies}}</p>
+        {% endfor %}
       {% endif %}
 
     </div><!--//item-->
+    <hr>
   {% endfor %}
 
 </section><!--//section-->
