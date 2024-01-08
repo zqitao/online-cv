@@ -104,7 +104,7 @@ projects:
     - title: 自动化测试平台
       tagline:
         - belongs: 深圳市虾皮信息科技有限公司 / 深圳市小赢科技有限责任公司
-          design_efforts: 100%
+          design_efforts: 95%
           dev_efforts: 100%
           lights:
             - "1. 高执行效率: 非UI自动化测试用例默认并行执行, 可快速对大批量的自动化测试用例进行验证"
@@ -136,7 +136,7 @@ projects:
     - title: 数据银行平台
       tagline:
         - belongs: 深圳市小赢科技有限责任公司
-          design_efforts: 100%
+          design_efforts: 90%
           dev_efforts: 100%
           lights:
             - "1. 取之不尽用之不竭: 数据取一条造一条, 不出问题永远用不完!"
@@ -160,7 +160,7 @@ projects:
     - title: 业务接入能力工具集私库 (pypi)
       tagline:
         - belongs: 深圳市虾皮信息科技有限公司 / 深圳市小赢科技有限责任公司
-          design_efforts: 100%
+          design_efforts: 95%
           dev_efforts: 100%
           lights:
             - "标准性与统一性: 统一封装测试技术构造对底层业务的接入能力, 减少测试团队在这些非核心业务测试技术需求上的冗余研究开发."
