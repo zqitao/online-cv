@@ -84,9 +84,9 @@ projects:
     - title: 发布平台
       tagline:
         - belongs: 深圳市虾皮信息科技有限公司
-        - design_efforts: 70%
-        - dev_efforts: 85%
-        - lights:
+          design_efforts: 70%
+          dev_efforts: 85%
+          lights:
             - "1. 成功地将发布工作从QA手里交回到了最熟悉业务的开发手中, 减少了中间环节大量的沟通成本."
             - "2. 整个公司第一个发布平台."
           statistics:
@@ -104,9 +104,9 @@ projects:
     - title: 自动化测试平台
       tagline:
         - belongs: 深圳市虾皮信息科技有限公司 / 深圳市小赢科技有限责任公司
-        - design_efforts: 100%
-        - dev_efforts: 100%
-        - lights:
+          design_efforts: 100%
+          dev_efforts: 100%
+          lights:
             - "1. 高执行效率: 非UI自动化测试用例默认并行执行, 可快速对大批量的自动化测试用例进行验证"
             - "2. 支持多类型: 支持在app、web、api等类型的自动化测试, 允许在私有或专有执行机远程构建"
             - "3. 支持多协议: 支持在http、protobuf、cmpp等接口协议的自动化测试"
@@ -136,9 +136,9 @@ projects:
     - title: 数据银行平台
       tagline:
         - belongs: 深圳市小赢科技有限责任公司
-        - design_efforts: 100%
-        - dev_efforts: 100%
-        - lights:
+          design_efforts: 100%
+          dev_efforts: 100%
+          lights:
             - "1. 取之不尽用之不竭: 数据取一条造一条, 不出问题永远用不完!"
             - "2. 低成本接入: 复用自动化测试代码关键字，无需另外设计造数逻辑."
             - "3. 便捷取数流程: 无需等待造数过程, 秒级页面取数"
@@ -160,9 +160,9 @@ projects:
     - title: 业务接入能力工具集私库 (pypi)
       tagline:
         - belongs: 深圳市虾皮信息科技有限公司 / 深圳市小赢科技有限责任公司
-        - design_efforts: 100%
-        - dev_efforts: 100%
-        - lights:
+          design_efforts: 100%
+          dev_efforts: 100%
+          lights:
             - "标准性与统一性: 统一封装测试技术构造对底层业务的接入能力, 减少测试团队在这些非核心业务测试技术需求上的冗余研究开发."
           statistics:
             - "已封装工具集: 1.DBLib; 2.RedisLib; 3.ESLib; 4.GRPCSender; 5.PBSerializer;
@@ -177,9 +177,9 @@ projects:
     - title: 线上数据监控平台
       tagline:
         - belongs: 深圳市虾皮信息科技有限公司 / 深圳市小赢科技有限责任公司
-        - design_efforts: 30%
-        - dev_efforts: 60%
-        - lights:
+          design_efforts: 30%
+          dev_efforts: 60%
+          lights:
             - "1. 超清晰视角: 按实际业务需求参数并站在测试的角度监控线上数据的可靠性."
             - "2. 多样化接入方式: 提供代码接入模板以及前端页面模板接入方式，适配多样化监控逻辑."
             - "3. 超及时告警: 异常发生后秒级进入告警策略提供告警，告警方式分邮件、企业微信、短信等."
