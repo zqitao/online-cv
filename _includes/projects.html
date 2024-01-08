@@ -31,6 +31,8 @@
         {% for tl in project.tagline %}
           <hr>
           <p class="project-tagline">{{ tl.summary }}</p>
+          <p><strong>需求贡献度: {{ tl.design_efforts }}</strong></p>
+          <p><strong>开发贡献度: {{ tl.dev_efforts }}</strong></p>
           <p><strong>亮点与特色:</strong></p>
           {% for l in tl.lights %}
             <div class="project-tagline">{{ l }}</div>
